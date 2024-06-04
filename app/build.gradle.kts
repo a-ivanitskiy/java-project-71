@@ -2,7 +2,7 @@ var lombokVersion = "1.18.32"
 var checkstyleVersion = "10.12.4"
 
 plugins {
-    id("java")
+    java
     application
     checkstyle
 }
